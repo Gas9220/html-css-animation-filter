@@ -72,6 +72,18 @@
 
 
 /* Soluzione 1 */
+.ex-1-square {
+    transition: 1s;
+}
+
 .ex-1-square:hover {
     background-color: red;
+}
+
+/* Soluzione 2 */
+.ex-2-square {
+    transition: 3s;
+}
+.ex-2-square:active {
+    width: 100%;
 }

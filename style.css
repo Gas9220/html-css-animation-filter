@@ -147,3 +147,15 @@
     border-radius: 20px;
     filter:contrast(0.5) sepia(0.7);
 }
+
+/* Soluzione 9 */
+
+.ex-9-img{
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    width: 600px;
+    border-radius: 20px;
+    filter:saturate(0.5) brightness(0.5);
+}

@@ -122,10 +122,17 @@
 }
 
 /* Soluzione 6 */
-.ex-6-img {
-    transition: 1s;
-}
 
 .ex-6-img:hover {
     filter: grayscale(1);
+}
+
+/* Soluzione 7 */
+
+.ex-7-img{
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+    filter:brightness(0.8) sepia(0.5);
 }
